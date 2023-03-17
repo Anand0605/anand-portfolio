@@ -1,0 +1,104 @@
+.big-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+.project h1 {
+    color: aliceblue;
+    padding-top: 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    height: 500px;
+}
+
+.projectCard {
+    background-size: 100% 100%;
+    min-height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.projectCard1 {
+    background-image: url('../image/child1.jpg');
+    border: 2px solid cyan;
+    box-shadow: 10px 10px 60px cyan;
+}
+
+.projectCard2 {
+    background-image: url('../image/child2.jpg');
+    border: 2px solid greenyellow;
+    box-shadow: 10px 10px 60px greenyellow;
+}
+
+
+.projectCard3 {
+    background-image: url('../image/child3.jpg');
+    border: 2px solid #003D82;
+    box-shadow: 10px 10px 60px #003D82;
+}
+
+.projectCard4 {
+    background-image: url('../image/child4.jpg');
+    border: 2px solid cyan;
+    box-shadow: 10px 10px 60px cyan;
+}
+
+.projectCard5 {
+    background-image: url('../image/child5.jpg');
+    border: 2px solid cyan;
+    box-shadow: 10px 10px 60px cyan;
+}
+
+.projectCard6 {
+    background-image: url('../image/child6.jpg');
+    border: 2px solid cyan;
+    box-shadow: 10px 10px 60px cyan;
+}
+
+.projectCard h1,
+.projectCard p {
+    color: aliceblue;
+}
+
+.projectCard p {
+    padding-left: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.projectCard .postBtn {
+    background-color: cyan;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.projectCard h1,
+.projectCard p,
+.projectCard .postBtn {
+    transform: translate(0px, 200px);
+}
+
+
+.projectCard:hover h1,
+.projectCard:hover p,
+.projectCard:hover .postBtn {
+    transform: translate(0px, 0px);
+    transition: 0.4s;
+}

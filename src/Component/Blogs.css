@@ -1,0 +1,88 @@
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.blog {
+    color: white;
+}
+
+.parent1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    flex-wrap: wrap;
+
+}
+
+
+.parent1-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid cyan;
+    min-height: 250px;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+.parent1-child {
+    background-size: 100% 100%;
+}
+
+.parent1-child-1 {
+    background-image: url('../image/image3.jpeg');
+}
+
+.parent1-child-2 {
+    background-image: url('../image/flexing.jpeg');
+}
+
+.parent1-child-3 {
+    background-image: url('../image/Hoisting.jpeg');
+}
+
+.parent1-child:hover {
+    background-color: cyan;
+    transform: scale(1.03);
+    transition: 0.5s;
+    cursor: default;
+}
+
+.parent1-child-1 img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.parent1-child h2 {
+    font-size: 2rem;
+}
+
+.parent1-child p {
+    color: aliceblue;
+}
+
+/* This is for all btn in blogpost */
+
+.btn1 {
+    background-color: cyan;
+    margin-top: 8px;
+    color: black;
+    border-radius: 12px;
+    padding: 4px;
+    border: none;
+    font-weight: 600;
+    padding: 8px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+}

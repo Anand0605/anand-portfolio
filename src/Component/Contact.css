@@ -1,0 +1,119 @@
+.mainContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+
+.contact-form {
+    min-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.contact-form h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input {
+    background-color: transparent;
+    border: 1px solid cyan;
+    color: white;
+    outline: none;
+}
+
+.mendatory {
+    color: red;
+}
+
+textarea {
+    background-color: transparent;
+    border: 2px solid cyan;
+    color: white;
+    outline: none;
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    /* border: none; */
+    /* background-color: #fff; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button[type='submit'] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: teal;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    /* background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%); */
+    background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
+
+}
+
+.contact-form button[type='submit']:hover {
+    /* background-color: blue-grren; */
+    /* background-image: linear-gradient(to right, #DC2424 0%, #4A569D 51%, #DC2424 100%); */
+    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
+
+}
+
+
+.formSuccess {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formSuccess p {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submitIcon {
+    color: green;
+    font-size: 2rem;
+}
+
+.formSuccess button {
+    background-color: cyan;
+    color: black;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
