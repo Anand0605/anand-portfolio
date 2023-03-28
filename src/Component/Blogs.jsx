@@ -1,8 +1,8 @@
 import React from 'react'
 import './Blogs.css';
-import img1 from '../image/image1.png';
-import img2 from '../image/Hoisting.jpeg';
-import img3 from '../image/flexing.jpeg';
+// import img1 from '../image/image1.png';
+// import img2 from '../image/Hoisting.jpeg';
+// import img3 from '../image/flexing.jpeg';
 
 
 function Blogs() {

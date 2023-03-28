@@ -20,6 +20,8 @@
     font-size: 1.5rem;
     margin-bottom: 20px;
     text-align: center;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+
 }
 
 input {
@@ -27,6 +29,8 @@ input {
     border: 1px solid cyan;
     color: white;
     outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cyan;
 }
 
 .mendatory {
@@ -38,12 +42,25 @@ textarea {
     border: 2px solid cyan;
     color: white;
     outline: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: cyan;
+}
+
+textarea::-webkit-scrollbar {
+    width: 0px;
+}
+
+textarea::-webkit-resizer {
+    width: 0px;
+    display: none;
 }
 
 .contact-form label {
     display: block;
     margin-bottom: 5px;
     color: white;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Times New Roman', serif;
 }
 
 .contact-form input,

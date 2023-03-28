@@ -89,7 +89,10 @@ h2 {
         align-items: center;
         justify-content: center;
         gap: 1.5rem;
-        background-color: green;
+        /* background-color: green; */
+        background-image: url('../image/contact-image1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
         transition: 1s;
     }
 

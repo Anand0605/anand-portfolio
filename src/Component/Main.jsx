@@ -10,6 +10,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import { AiFillTwitterCircle } from 'react-icons/ai';
 import { AiFillInstagram } from 'react-icons/ai';
 import Typewriter from 'typewriter-effect';
+import { Navlink } from "react-router-dom";
 
 
 
@@ -35,10 +36,10 @@ function Main() {
           </div>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis architecto consequuntur maiores ea magni, dolores enim voluptate eveniet aliquid. Sunt totam quos quia deleniti magni?</p>
           <div className='social-links'>
-            <div className="github-icon"><AiFillGithub className='icons' /></div>
-            <div className="insta-icon"><AiFillInstagram className='icons' /></div>
-            <div className="linkedin-icon"><AiFillLinkedin className='icons' /></div>
-            <div className="twitter-icon"><AiFillTwitterCircle className='icons' /></div>
+            <a href="https://github.com/Anand0605" target='_blank' className="github-icon"><AiFillGithub className='icons' /></a>
+            <a href="" className="insta-icon"><AiFillInstagram className='icons' /></a>
+            <a href="" className="linkedin-icon"><AiFillLinkedin className='icons' /></a>
+            <a href="" className="twitter-icon"><AiFillTwitterCircle className='icons' /></a>
           </div>
         </div>
         <div className="right-div">

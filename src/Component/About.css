@@ -22,6 +22,7 @@
     box-shadow: 2px 2px 20px -5px cyan;
     z-index: 5;
     /* box-shadow: 20px 20px 50px 10px pink inset; */
+    cursor: pointer;
 }
 
 /* .left-child img:hover {
@@ -35,7 +36,12 @@
     height: 300px;
     width: 600px;
     color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+/* .mainAbout .right-child p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
 
 /* .right-child h1 h2 {
     font-size: 2.3rem;
@@ -65,6 +71,7 @@ span {
     height: 30px;
     /* box-shadow: 2px 2px 20px -5px cyan; */
     padding: 2px;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
 }
 
 .btn:hover {
@@ -72,4 +79,6 @@ span {
     color: rgba(0, 255, 255, 1);
     transition: 0.2s;
     box-shadow: 2px 2px 20px -1px cyan;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
 }

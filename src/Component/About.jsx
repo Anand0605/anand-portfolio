@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css';
-import profile from '../image/Profile-picture-2.png';
+import profile from '../image/Anand2.png';
 
 function About() {
     return (
@@ -18,4 +18,4 @@ function About() {
     )
 }
 
-export default About
+export default About;

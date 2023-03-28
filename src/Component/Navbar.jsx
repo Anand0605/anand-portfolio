@@ -19,11 +19,11 @@ function Navbar() {
             <header>
                 <h2>Logo</h2>
                 <nav ref={navRef}>
-                    <h4><NavLink to="/">Home</NavLink></h4>
-                    <h4><NavLink to="/projects">Projects</NavLink></h4>
-                    <h4><NavLink to="/blogs">Blogs</NavLink></h4>
-                    <h4><NavLink to="/about">About</NavLink></h4>
-                    <h4><NavLink to="/contact">Contact</NavLink></h4>
+                    <h4><NavLink to="/" onClick={ShowNavbar}>Home</NavLink></h4>
+                    <h4><NavLink to="/projects" onClick={ShowNavbar}>Projects</NavLink></h4>
+                    <h4><NavLink to="/blogs" onClick={ShowNavbar}>Blogs</NavLink></h4>
+                    <h4><NavLink to="/about" onClick={ShowNavbar}>About</NavLink></h4>
+                    <h4><NavLink to="/contact" onClick={ShowNavbar}>Contact</NavLink></h4>
                     <button className="nav-btn nav-close-btn onClick" onClick={ShowNavbar}><CloseIcon /></button>
                 </nav>
                 <button className="nav-btn" onClick={ShowNavbar}><MenuIcon /></button>
