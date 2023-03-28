@@ -38,7 +38,7 @@ function Main() {
           <div className='social-links'>
             <a href="https://github.com/Anand0605" target='_blank' className="github-icon"><AiFillGithub className='icons' /></a>
             <a href="" className="insta-icon"><AiFillInstagram className='icons' /></a>
-            <a href="" className="linkedin-icon"><AiFillLinkedin className='icons' /></a>
+            <a href="https://www.linkedin.com/in/anand-kumar-gautam-733586207/" className="linkedin-icon"><AiFillLinkedin className='icons' /></a>
             <a href="" className="twitter-icon"><AiFillTwitterCircle className='icons' /></a>
           </div>
         </div>
