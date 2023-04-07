@@ -1,10 +1,10 @@
 .mainAbout {
     display: flex;
-    /* justify-content: space-around; */
-    /* justify-content: center; */
     justify-content: space-evenly;
     align-items: center;
     min-height: 600px;
+    flex-wrap: wrap;
+
 }
 
 .left-child {

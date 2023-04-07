@@ -3,6 +3,8 @@
     justify-content: center;
     align-items: center;
     position: sticky;
+    padding-bottom: 20px;
+
 }
 
 .project h1 {
@@ -17,6 +19,7 @@
     flex-wrap: wrap;
     gap: 40px;
     height: 500px;
+    margin: 20px;
 }
 
 .projectCard {
@@ -66,6 +69,7 @@
     background-image: url('../image/child6.jpg');
     border: 2px solid cyan;
     box-shadow: 10px 10px 60px cyan;
+
 }
 
 .projectCard h1,
