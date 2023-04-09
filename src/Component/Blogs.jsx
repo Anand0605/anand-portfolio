@@ -17,7 +17,8 @@ function Blogs() {
                 <div className="parent1-child parent1-child-1">
                     <h2>let var const</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sequi repellat possimus adipisci optio facilis soluta excepturi quia aut, animi laborum veniam? Qui, culpa voluptatem.
+                        In JavaScript, "let" and "const" are block-scoped variables, while "var" is function-scoped. "let" and "const" are recommended for better code clarity and fewer errors.
+
                     </p>
                     {/* <img src={img1} alt="" /> */}
                     <button className='btn1'>Read More</button>
@@ -25,14 +26,14 @@ function Blogs() {
                 <div className="parent1-child parent1-child-2">
                     <h2>flexing</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sequi repellat possimus adipisci optio facilis soluta excepturi quia aut, animi laborum veniam? Qui, culpa voluptatem.
+                        "Flexbox" in JavaScript helps create dynamic and responsive web designs. Learn the basics of how it works and how to use it for different layout styles.
                     </p>
                     <button className='btn1'>Read More</button>
                 </div>
                 <div className="parent1-child parent1-child-3">
                     <h2>Hoisting</h2>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sequi repellat possimus adipisci optio facilis soluta excepturi quia aut, animi laborum veniam? Qui, culpa voluptatem.
+                        JavaScript "hoists" variable and function declarations to the top of their scopes. Learn how hoisting works, common mistakes, and best practices to write effective code.
                     </p>
                     <button className='btn1'>Read More</button>
                 </div>
