@@ -17,35 +17,37 @@ import { Navlink } from "react-router-dom";
 function Main() {
   return (
     <>
-      <div className="main-Div">
-        <div className="left-div">
-          <div>
-            <h2>Hello, I am </h2>
-            <h1>Anand Gautam</h1>
-            <h2 className='animated-text'> I am <span>
-              <Typewriter
-                options={{
-                  strings: ['Frontend Devloper', 'Coder'],
-                  autoStart: true,
-                  loop: true,
-                  deleteSpeed: 60,
-                  delay: 100,
-                  pauseFor: 2000
-                }}
-              /></span></h2>
+      <div className="main-body">
+        <div className="main-Div">
+          <div className="left-div">
+            <div>
+              <h2>Hello, I am </h2>
+              <h1>Anand Gautam</h1>
+              <h2 className='animated-text'> I am <span>
+                <Typewriter
+                  options={{
+                    strings: ['Frontend Devloper', 'Coder'],
+                    autoStart: true,
+                    loop: true,
+                    deleteSpeed: 60,
+                    delay: 100,
+                    pauseFor: 2000
+                  }}
+                /></span></h2>
+            </div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis architecto consequuntur maiores ea magni, dolores enim voluptate eveniet aliquid. Sunt totam quos quia deleniti magni?</p>
+            <div className='social-links'>
+              <a href="https://github.com/Anand0605" target='_blank' className="github-icon"><AiFillGithub className='icons' /></a>
+              <a href="" className="insta-icon"><AiFillInstagram className='icons' /></a>
+              <a href="https://www.linkedin.com/in/anand-kumar-gautam-733586207/" className="linkedin-icon"><AiFillLinkedin className='icons' /></a>
+              <a href="" className="twitter-icon"><AiFillTwitterCircle className='icons' /></a>
+            </div>
           </div>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis architecto consequuntur maiores ea magni, dolores enim voluptate eveniet aliquid. Sunt totam quos quia deleniti magni?</p>
-          <div className='social-links'>
-            <a href="https://github.com/Anand0605" target='_blank' className="github-icon"><AiFillGithub className='icons' /></a>
-            <a href="" className="insta-icon"><AiFillInstagram className='icons' /></a>
-            <a href="https://www.linkedin.com/in/anand-kumar-gautam-733586207/" className="linkedin-icon"><AiFillLinkedin className='icons' /></a>
-            <a href="" className="twitter-icon"><AiFillTwitterCircle className='icons' /></a>
+          <div className="right-div">
+            <img src={profile} alt="" />
           </div>
-        </div>
-        <div className="right-div">
-          <img src={profile} alt="" />
-        </div>
 
+        </div>
       </div>
     </>
   )

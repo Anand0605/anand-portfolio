@@ -1,8 +1,12 @@
 body {
-    background-image: url('../image/contact-image1.jpg');
+    background-image: url('../image/aurora1.jpg');
     background-repeat: repeat-y;
     background-size: cover;
     object-fit: contain;
+}
+
+.main-body {
+    height: 90vh;
 }
 
 body::-webkit-scrollbar {
