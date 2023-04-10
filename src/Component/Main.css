@@ -91,3 +91,11 @@ span {
 .right-div {
     padding-top: 30px;
 }
+
+@media screen and (max-width: 360px) {
+    .right-div img {
+        width: 90%;
+        height: 90%;
+
+    }
+}
