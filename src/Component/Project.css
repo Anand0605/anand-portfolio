@@ -9,6 +9,7 @@
 
 .project h1 {
     color: aliceblue;
+    /* color: black; */
     padding-top: 20px;
 }
 
@@ -35,26 +36,30 @@
 }
 
 .projectCard1 {
-    background-image: url('../image/child1.jpg');
+    background-image: url('../image/ecomm2.webp');
     border: 2px solid cyan;
     box-shadow: 10px 10px 60px cyan;
+    /* -webkit-filter: blur(5px);
+    /* Safari 6.0 - 9.0 */
+    /* filter: blur(5px); */
+
 }
 
 .projectCard2 {
-    background-image: url('../image/child2.jpg');
+    background-image: url('../image/ecomm3.jpg');
     border: 2px solid greenyellow;
     box-shadow: 10px 10px 60px greenyellow;
 }
 
 
 .projectCard3 {
-    background-image: url('../image/child3.jpg');
+    background-image: url('../image/ecomm4.png');
     border: 2px solid #003D82;
     box-shadow: 10px 10px 60px #003D82;
 }
 
 .projectCard4 {
-    background-image: url('../image/child4.jpg');
+    background-image: url('../image/ecomm5.jpg');
     border: 2px solid cyan;
     box-shadow: 10px 10px 60px cyan;
 }
@@ -75,6 +80,7 @@
 .projectCard h1,
 .projectCard p {
     color: aliceblue;
+    /* color: black; */
 }
 
 .projectCard p {
@@ -96,13 +102,13 @@
 .projectCard h1,
 .projectCard p,
 .projectCard .postBtn {
-    transform: translate(0px, 200px);
+    /* transform: translate(0px, 200px); */
 }
 
 
 .projectCard:hover h1,
 .projectCard:hover p,
 .projectCard:hover .postBtn {
-    transform: translate(0px, 0px);
-    transition: 0.4s;
+    /* transform: translate(0px, 0px); */
+    /* transition: 0.4s; */
 }

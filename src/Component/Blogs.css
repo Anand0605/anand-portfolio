@@ -39,15 +39,15 @@
 }
 
 .parent1-child-1 {
-    background-image: url('../image/image3.jpeg');
+    background-image: url('../image/polarlight.jpg');
 }
 
 .parent1-child-2 {
-    background-image: url('../image/flexing.jpeg');
+    background-image: url('../image/polarlights2.jpg');
 }
 
 .parent1-child-3 {
-    background-image: url('../image/Hoisting.jpeg');
+    background-image: url('../image/polarlights3.jpg');
 }
 
 .parent1-child:hover {

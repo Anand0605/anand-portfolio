@@ -97,7 +97,7 @@ h2 {
     }
 
     header .responsive_nav {
-        transform: translateY(100vh);
+        transform: translateY(150vh);
     }
 
     nav .nav-close-btn {
