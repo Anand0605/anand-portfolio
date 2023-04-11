@@ -37,6 +37,9 @@ const Projects = () => {
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sapiente voluptatibus quisquam quae totam officiis repellat repellendus aspernatur eius facilis?</p>
                     <button className='postBtn'>Live</button></div>
             </div>
+            <div className="project-footer">
+                <div className="project-child-footer">© |2023| All Right Reserved</div>
+            </div>
         </>
     )
 }

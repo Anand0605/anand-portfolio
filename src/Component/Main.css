@@ -81,8 +81,8 @@ span {
 /* child right div */
 
 .right-div img {
-    height: 350px;
-    width: 350px;
+    height: 250px;
+    width: 250px;
     border-radius: 50%;
     box-shadow: 2px 2px 20px -5px cyan;
     cursor: pointer;
@@ -90,6 +90,25 @@ span {
 
 .right-div {
     padding-top: 30px;
+}
+
+.main-footer {
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+
+
+}
+
+.child-footer {
+    /* margin-bottom: 10px; */
+    position: absolute;
+    bottom: 4px;
+    font-weight: bold;
+    /* overflow: none; */
+
 }
 
 @media screen and (max-width: 360px) {

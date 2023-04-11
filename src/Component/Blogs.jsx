@@ -38,6 +38,9 @@ function Blogs() {
                     <button className='btn1'>Read More</button>
                 </div>
             </div>
+            <div className="blog-footer">
+                <div className="blog-child-footer">© |2023| All Right Reserved</div>
+            </div>
         </>
     )
 }

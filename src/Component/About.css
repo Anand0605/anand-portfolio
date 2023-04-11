@@ -20,7 +20,7 @@
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    box-shadow: 2px 2px 20px -5px cyan;
+    box-shadow: 2px 2px 20px -5px #00008b;
     z-index: 5;
     /* box-shadow: 20px 20px 50px 10px pink inset; */
     cursor: pointer;
@@ -40,8 +40,12 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h1 h2 {
+    font-weight: bold;
+}
+
 .mainAbout .right-child p {
-    font-family: Lora, serif;
+    font-family: cursive;
 }
 
 /* .right-child h1 h2 {
@@ -50,7 +54,7 @@
 } */
 
 span {
-    color: cyan;
+    /* color: cyan; */
     animation: 1s infinite;
 }
 
@@ -72,7 +76,7 @@ span {
     height: 30px;
     /* box-shadow: 2px 2px 20px -5px cyan; */
     padding: 2px;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .btn:hover {
@@ -82,4 +86,14 @@ span {
     box-shadow: 2px 2px 20px -1px cyan;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
+}
+
+.about-footer {
+    color: cyan;
+    display: flex;
+    justify-content: center;
+}
+
+.about-child-footer {
+    font-weight: bold;
 }

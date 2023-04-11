@@ -88,3 +88,16 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
 }
+
+.blog-footer {
+    color: cyan;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.blog-child-footer {
+    font-weight: bold;
+    position: absolute;
+    top: 9rem;
+}

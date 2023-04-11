@@ -93,22 +93,39 @@
     background-color: cyan;
     border: none;
     border-radius: 10px;
-    padding: 5px 10px;
+    padding: 5px 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 600;
     cursor: pointer;
+    gap: 15px;
 }
 
-.projectCard h1,
+/* .projectCard h1,
 .projectCard p,
 .projectCard .postBtn {
     /* transform: translate(0px, 200px); */
+
+
+
+/* .projectCard:hover h1,
+.projectCard:hover p,
+.projectCard:hover .postBtn { */
+/* transform: translate(0px, 0px); */
+/* transition: 0.4s; */
+.postBtn {
+    margin-top: 10px;
 }
 
+.project-footer {
+    display: flex;
+    justify-content: center;
+    color: cyan;
+    position: relative;
+}
 
-.projectCard:hover h1,
-.projectCard:hover p,
-.projectCard:hover .postBtn {
-    /* transform: translate(0px, 0px); */
-    /* transition: 0.4s; */
+.project-child-footer {
+    position: absolute;
+    bottom: 1.3px;
+    font-weight: bold;
+
 }

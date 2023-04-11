@@ -49,6 +49,9 @@ function Main() {
 
         </div>
       </div>
+      <div className="main-footer">
+        <div className="child-footer">© |2023| All Right Reserved</div>
+      </div>
     </>
   )
 }

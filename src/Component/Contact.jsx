@@ -62,7 +62,11 @@ function ContactForm() {
                     <p><AiFillCheckSquare className='submitIcon' />Form Submitted Successfully, Admin will contact you soon.</p>
                     <button onClick={() => navigate('/')}>Go Back</button>
                 </div>
+
         }
+            <div className="main-footer">
+                <div className="child-footer">© |2023| All Right Reserved</div>
+            </div>
         </>
     );
 }
