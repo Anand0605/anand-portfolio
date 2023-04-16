@@ -36,7 +36,7 @@
 }
 
 .projectCard1 {
-    background-image: url('../image/ecomm2.webp');
+    background-image: url('../image/ui-mate.png');
     border: 2px solid cyan;
     box-shadow: 10px 10px 60px cyan;
     /* -webkit-filter: blur(5px);
@@ -100,18 +100,6 @@
     gap: 15px;
 }
 
-/* .projectCard h1,
-.projectCard p,
-.projectCard .postBtn {
-    /* transform: translate(0px, 200px); */
-
-
-
-/* .projectCard:hover h1,
-.projectCard:hover p,
-.projectCard:hover .postBtn { */
-/* transform: translate(0px, 0px); */
-/* transition: 0.4s; */
 .postBtn {
     margin-top: 10px;
 }
