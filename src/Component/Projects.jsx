@@ -11,9 +11,9 @@ const Projects = () => {
             </div>
             <div className="main">
                 <div className="projectCard projectCard1">
-                    <h1>Heading1</h1>
+                    <h1>UI-Mate</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dolor reprehenderit laborum fugiat aspernatur, totam quae ducimus ex voluptas. Molestiae?</p>
-                    <button className='postBtn'>Live</button>
+                    <button className='postBtn'><a href="http://127.0.0.1:5500/index1.html">Live</a></button>
                 </div>
                 <div className="projectCard projectCard2">
                     <h1>Heading2</h1>
