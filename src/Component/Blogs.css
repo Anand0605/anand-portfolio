@@ -90,14 +90,21 @@
 }
 
 .blog-footer {
-    color: cyan;
+    color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: relative;
+    height: 40px;
+    width: 100%;
+    background-color: #020742;
+    /* background-color: red; */
 }
 
 .blog-child-footer {
     font-weight: bold;
     position: absolute;
-    top: 9rem;
+    /* top: 9rem; */
+
+    font-family: 'Times New Roman', serif;
 }

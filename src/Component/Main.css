@@ -7,6 +7,10 @@ body {
 
 .main-body {
     height: 90vh;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
 }
 
 body::-webkit-scrollbar {
@@ -100,7 +104,7 @@ span {
     height: 40px;
     width: 100%;
     background-color: #020742;
-    /* padding: 20px; */
+    /* gap: 20px; */
 
 
 
@@ -109,12 +113,13 @@ span {
 .child-footer {
     /* margin-bottom: 10px; */
     position: absolute;
-    bottom: 4px;
+    bottom: 8px;
     font-weight: bold;
     /* overflow: none; */
     font-family: 'Times New Roman', serif;
     /* padding: 20px; */
     /* padding-bottom: 20px; */
+    /* gap: 20px; */
 
 }
 

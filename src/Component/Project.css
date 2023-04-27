@@ -113,13 +113,18 @@
 .project-footer {
     display: flex;
     justify-content: center;
-    color: cyan;
+    color: white;
     position: relative;
+    background-color: #020742;
+    height: 40px;
+    width: 100%;
+
 }
 
 .project-child-footer {
     position: absolute;
     bottom: 1.3px;
     font-weight: bold;
+    font-family: 'Times New Roman', serif;
 
 }

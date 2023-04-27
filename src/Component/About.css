@@ -89,11 +89,17 @@ span {
 }
 
 .about-footer {
-    color: cyan;
+    color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #020742;
+    height: 40px;
+    width: 100%;
 }
 
 .about-child-footer {
     font-weight: bold;
+    /* bottom: 8px; */
+    font-family: 'Times New Roman', serif;
 }

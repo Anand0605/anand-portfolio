@@ -46,8 +46,13 @@ function Main() {
           <div className="right-div">
             <img src={profile} alt="" />
           </div>
-
+          {/* <div className="main-footer">
+            <div className="child-footer">© |2023| All Right Reserved</div>
+          </div> */}
         </div>
+        {/* <div className="main-footer">
+          <div className="child-footer">© |2023| All Right Reserved</div>
+        </div> */}
       </div>
       <div className="main-footer">
         <div className="child-footer">© |2023| All Right Reserved</div>
