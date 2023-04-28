@@ -16,9 +16,12 @@ const Projects = () => {
                     <button className='postBtn'><a href="http://127.0.0.1:5500/index.html">Live</a></button>
                 </div>
                 <div className="projectCard projectCard2">
-                    <h1>Heading2</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sapiente voluptatibus quisquam quae totam officiis repellat repellendus aspernatur eius facilis?</p>
-                    <button className='postBtn'>Live</button>
+                    <h1>Megamart-shop</h1>
+                    <p>Homepage, Login/Logout, Search Products, View
+                        Products, Add to Cart, Add to Wishlist, Payment, Single
+                        Product Page, Responisve.
+                        <span>Tech Stack:</span> HTML, CSS, React.JS, Netlify, DummyJson(API)</p>
+                    <button className='postBtn'><a href="https://megamartshop.netlify.app/">Live</a></button>
                 </div>
                 <div className="projectCard projectCard3">
                     <h1>Heading2</h1>

@@ -56,6 +56,10 @@
     box-shadow: 10px 10px 60px #003D82;
 }
 
+.projectCard2 span {
+    font-size: bold;
+}
+
 
 .projectCard3 {
     background-image: url('../image/ecomm4.png');
@@ -123,7 +127,7 @@
 
 .project-child-footer {
     position: absolute;
-    bottom: 1.3px;
+    bottom: 8px;
     font-weight: bold;
     font-family: 'Times New Roman', serif;
 

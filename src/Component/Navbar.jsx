@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom';
 // import { FaBars FaTimes } from 'react-icons/fa';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseIcon from '@mui/icons-material/Close';
+import navlogo from '../image/navlogo.png';
 
 function Navbar() {
     const navRef = useRef();
@@ -17,7 +18,8 @@ function Navbar() {
     return (
         <>
             <header>
-                <h2>Logo</h2>
+                <div className="header-img"><img src={navlogo} alt="" /></div>
+
                 <nav ref={navRef}>
                     <h4><NavLink to="/" onClick={ShowNavbar}>Home</NavLink></h4>
                     <h4><NavLink to="/projects" onClick={ShowNavbar}>Projects</NavLink></h4>

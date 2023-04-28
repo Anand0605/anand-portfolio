@@ -46,16 +46,10 @@ function Main() {
           <div className="right-div">
             <img src={profile} alt="" />
           </div>
-          {/* <div className="main-footer">
-            <div className="child-footer">© |2023| All Right Reserved</div>
-          </div> */}
         </div>
-        {/* <div className="main-footer">
-          <div className="child-footer">© |2023| All Right Reserved</div>
-        </div> */}
       </div>
-      <div className="main-footer">
-        <div className="child-footer">© |2023| All Right Reserved</div>
+      <div className="main-page">
+        <div className="main-child">© |2023| All Right Reserved</div>
       </div>
     </>
   )

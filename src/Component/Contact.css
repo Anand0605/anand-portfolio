@@ -134,3 +134,17 @@ textarea::-webkit-resizer {
     cursor: pointer;
 
 }
+
+.main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #020742;
+    height: 40px;
+    width: 100%;
+}
+
+.child-footer {
+    color: white;
+    font-family: 'Times New Roman', serif;
+}

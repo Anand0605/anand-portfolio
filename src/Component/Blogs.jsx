@@ -21,7 +21,7 @@ function Blogs() {
 
                     </p>
                     {/* <img src={img1} alt="" /> */}
-                    <button className='btn1'>Read More</button>
+                    <button className='btn1'><a href="https://hashnode.com/edit/cleactoof00080al028ofb9qj">Read More</a></button>
                 </div>
                 <div className="parent1-child parent1-child-2">
                     <h2>flexing</h2>
@@ -37,13 +37,13 @@ function Blogs() {
                     </p>
                     <button className='btn1'>Read More</button>
                 </div>
-                <div className="blog-footer">
+                {/* <div className="blog-footer">
                     <div className="blog-child-footer">© |2023| All Right Reserved</div>
-                </div>
+                </div> */}
             </div>
-            {/* <div className="blog-footer">
+            <div className="blog-footer">
                 <div className="blog-child-footer">© |2023| All Right Reserved</div>
-            </div> */}
+            </div>
         </>
     )
 }
