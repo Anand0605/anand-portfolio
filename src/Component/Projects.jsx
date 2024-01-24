@@ -12,27 +12,31 @@ const Projects = () => {
             <div className="main">
                 <div className="projectCard projectCard1">
                     <h1>Emegashop</h1>
-                    <p>This is a component Library, where you can find all UI for your
-                        website like Button, Cards ,Profiles, etc. Just add CDN links of
-                        CSS and and Get Your UI in your website within second.</p>
+                    <p>Features:Homepage, Login/Logout, Search, View
+                        Products, Add to Cart, Wishlist, Payment, Single Product
+                        Page,Checkout,cart management,order summary, Responsive.<span>Tech Stack:</span> HTML, CSS, Javascript, React.JS, Netlify, Mockbee(Backend).</p>
                     <button className='postBtn'><a href="https://emegashop.netlify.app/">Live</a></button>
                 </div>
                 <div className="projectCard projectCard2">
                     <h1>Connectingfy</h1>
                     <p>Homepage, Login/Logout, Search Products, View
                         Products, Add to Cart, Add to Wishlist, Payment, Single
-                        Product Page, Responisve.
-                        <span>Tech Stack:</span> HTML, CSS, React.JS, Netlify, DummyJson(API)</p>
+                        Product Page, Responsive.
+                        <br /> <span>Tech Stack:</span> HTML, CSS, React.JS, Netlify, Mockbee(API)</p>
                     <button className='postBtn'><a href="https://connetingfy.netlify.app/">Live</a></button>
                 </div>
                 <div className="projectCard projectCard3">
                     <h1>VideoLibrary</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sapiente voluptatibus quisquam quae totam officiis repellat repellendus aspernatur eius facilis?</p>
+                    <p>Feature: HomePage, VideoGallery, Search, Login/logout,View
+                        SinglePage, Like/DisLike, WatchLater, History
+                        <span>Tech Stack:</span> Html, Css, Javascript, ReactJs Netlify, Mockbee Api, React Icon, Material UI</p>
                     <button className='postBtn'><a href="https://videolibraryanand.netlify.app/">Live</a></button>
                 </div>
                 <div className="projectCard projectCard4">
                     <h1>Video Recorder</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sapiente voluptatibus quisquam quae totam officiis repellat repellendus aspernatur eius facilis?</p>
+                    <p>Feature: Audio,Video,Screen+Video, ScreenRecord
+                       <br /> <span>Tech Stack:</span> Html, Css, Javascript, React.js, Netlify, React
+                        Icon, Material Ui Git, Github. </p>
                     <button className='postBtn'><a href="https://recorder05.netlify.app/">Live</a></button>
                 </div>
                 <div className="projectCard projectCard5"><h1>Heading2</h1>
