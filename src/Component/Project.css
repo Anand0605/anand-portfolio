@@ -25,7 +25,8 @@
 
 .projectCard {
     background-size: 100% 100%;
-    min-height: 200px;
+    max-height: 300px;
+    min-height: 300px;
     width: 300px;
     border-radius: 10px;
     display: flex;
@@ -119,6 +120,7 @@
     background-color: #020742;
     height: 40px;
     width: 100%;
+    top: 150px;
 
 }
 
