@@ -35,7 +35,7 @@ function Main() {
                   }}
                 /></span></h2>
             </div>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis architecto consequuntur maiores ea magni, dolores enim voluptate eveniet aliquid. Sunt totam quos quia deleniti magni?</p>
+            <p>My name is Anand Kumar Gautam, a frontend developer specializing in React.js. I create dynamic and responsive user interfaces to enhance user experience and engagement.</p>
             <div className='social-links'>
               <a href="https://github.com/Anand0605" target='_blank' className="github-icon"><AiFillGithub className='icons' /></a>
               <a href="" className="insta-icon"><AiFillInstagram className='icons' /></a>

@@ -7,19 +7,16 @@ body {
 
 .main-body {
     height: 90vh;
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
 
 }
 
 body::-webkit-scrollbar {
-    width: 5px;
+    width: 4px;
 }
 
 body::-webkit-scrollbar-track {
-    background-color: cyan;
-    border-radius: 10px;
+    background-color: #45109a;
+    /* border-radius: 10px; */
 }
 
 .main-Div {
@@ -104,18 +101,18 @@ span {
     height: 40px;
     width: 100%;
     background-color: #020742;
-    /* gap: 20px; */
-    bottom: -40px;
-
-
-
+    /* bottom: -40px; */
+    position: relative;
+    top: 55px;
+    
 }
 
 .main-child {
-    position: absolute;
     bottom: 8px;
     font-weight: bold;
     font-family: 'Times New Roman', serif;
+    position: absolute;
+    /* bottom: 0; */
 }
 
 @media screen and (max-width: 360px) {
