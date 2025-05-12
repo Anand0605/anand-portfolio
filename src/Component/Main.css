@@ -6,7 +6,7 @@ body {
 }
 
 .main-body {
-    height: 90vh;
+    /* height: 80vh; */
 
 }
 
@@ -21,7 +21,7 @@ body::-webkit-scrollbar-track {
 
 .main-Div {
     display: flex;
-    min-height: 640px;
+    /* min-height: 640px; */
     justify-content: space-around;
     align-items: center;
     padding: 0px 40px 0px 40px;
@@ -118,7 +118,7 @@ span {
 @media screen and (max-width: 360px) {
     .right-div img {
         width: 90%;
-        height: 90%;
+        /* height: 90%; */
 
     }
 }
