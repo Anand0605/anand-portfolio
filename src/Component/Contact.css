@@ -2,56 +2,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: auto;
+    min-height: 90vh;
     width: 100vw;
+    padding: 20px;
 }
 
-
 .contact-form {
-    min-width: 400px;
-    margin: 0 auto;
+    width: 100%;
+    max-width: 500px;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 5px 5px 25px rgba(0, 0, 0, 0.5);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 0, 0, 0.2); /* Optional background */
 }
 
 .contact-form h2 {
     font-size: 1.5rem;
     margin-bottom: 20px;
     text-align: center;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-
 }
 
-input {
+input,
+textarea {
     background-color: transparent;
     border: 1px solid cyan;
-    color: white;
-    outline: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: cyan;
-}
-
-.mendatory {
-    color: red;
+    outline: none;
+    font-family: inherit;
 }
 
 textarea {
-    background-color: transparent;
     border: 2px solid cyan;
-    color: white;
-    outline: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    color: cyan;
+    height: 150px;
+    resize: none;
 }
 
-textarea::-webkit-scrollbar {
-    width: 0px;
-}
-
+textarea::-webkit-scrollbar,
 textarea::-webkit-resizer {
-    width: 0px;
     display: none;
 }
 
@@ -59,7 +48,6 @@ textarea::-webkit-resizer {
     display: block;
     margin-bottom: 5px;
     color: white;
-    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
     font-family: 'Times New Roman', serif;
 }
 
@@ -70,13 +58,7 @@ textarea::-webkit-resizer {
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 5px;
-    /* border: none; */
-    /* background-color: #fff; */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-}
-
-.contact-form textarea {
-    height: 150px;
 }
 
 .contact-form button[type='submit'] {
@@ -85,22 +67,19 @@ textarea::-webkit-resizer {
     padding: 10px;
     border-radius: 5px;
     border: none;
-    background-color: teal;
     color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
-    /* background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%); */
     background-image: linear-gradient(to right, #1A2980 0%, #26D0CE 51%, #1A2980 100%);
-
+    font-family: inherit;
 }
 
 .contact-form button[type='submit']:hover {
-    /* background-color: blue-grren; */
-    /* background-image: linear-gradient(to right, #DC2424 0%, #4A569D 51%, #DC2424 100%); */
     background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC 51%, #02AAB0 100%);
-
 }
 
+.mendatory {
+    color: red;
+}
 
 .formSuccess {
     min-height: 80vh;
@@ -109,14 +88,13 @@ textarea::-webkit-resizer {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    padding: 20px;
 }
 
 .formSuccess p {
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-family: inherit;
+    text-align: center;
 }
 
 .submitIcon {
@@ -128,11 +106,10 @@ textarea::-webkit-resizer {
     background-color: cyan;
     color: black;
     border: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px;
+    padding: 10px 20px;
     border-radius: 10px;
     cursor: pointer;
-
+    font-family: inherit;
 }
 
 .main-footer {
@@ -147,4 +124,41 @@ textarea::-webkit-resizer {
 .child-footer {
     color: white;
     font-family: 'Times New Roman', serif;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* ========== RESPONSIVE STYLES ========== */
+@media (max-width: 768px) {
+    .contact-form {
+        padding: 15px;
+        max-width: 90%;
+    }
+
+    .contact-form h2 {
+        font-size: 1.3rem;
+    }
+
+    .formSuccess p {
+        font-size: 0.95rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-form h2 {
+        font-size: 1.2rem;
+    }
+
+    .formSuccess p {
+        font-size: 0.85rem;
+    }
+
+    .formSuccess button {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+
+    .child-footer {
+        font-size: 0.8rem;
+    }
 }

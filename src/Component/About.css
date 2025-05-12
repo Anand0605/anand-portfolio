@@ -5,7 +5,6 @@
     min-height: 630px;
     flex-wrap: wrap;
     padding: 0px 40px 0px 40px;
-
 }
 
 .left-child {
@@ -20,7 +19,6 @@
     border-radius: 50%;
     box-shadow: 2px 2px 20px -5px #00008b;
     z-index: 5;
-    /* box-shadow: 20px 20px 50px 10px pink inset; */
     cursor: pointer;
 }
 
@@ -31,11 +29,11 @@
 } */
 
 .right-child {
-    /* border: 2px solid blue; */
     height: 300px;
     width: 600px;
     color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 h2 {
@@ -52,7 +50,6 @@ h1 h2 {
 } */
 
 span {
-    /* color: cyan; */
     animation: 1s infinite;
 }
 
@@ -61,20 +58,18 @@ span {
     justify-content: start;
     align-items: center;
     padding-top: 20px;
-
 }
 
 .btn {
-    /* background-color: aqua; */
     background-color: #004d4d;
     color: rgb(253, 255, 255);
     border-style: none;
     border-radius: 50px;
     width: 100px;
     height: 30px;
-    /* box-shadow: 2px 2px 20px -5px cyan; */
     padding: 2px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+        'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .btn:hover {
@@ -82,7 +77,6 @@ span {
     color: rgba(0, 255, 255, 1);
     transition: 0.2s;
     box-shadow: 2px 2px 20px -1px cyan;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     cursor: pointer;
 }
 
@@ -99,6 +93,73 @@ span {
 
 .about-child-footer {
     font-weight: bold;
-    /* bottom: 8px; */
     font-family: 'Times New Roman', serif;
+}
+
+/* =================== Responsive Styles =================== */
+
+@media (max-width: 1024px) {
+    .mainAbout {
+        flex-direction: column;
+        padding: 20px;
+        min-height: auto;
+    }
+
+    .left-child,
+    .right-child {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .left-child img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .right-child {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .right-child .parent-btn {
+        justify-content: center;
+    }
+
+    .btn {
+        width: 120px;
+        height: 35px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .left-child img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 30px;
+        font-size: 0.9rem;
+    }
+
+    .right-child {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .about-footer {
+        font-size: 12px;
+        height: 35px;
+    }
+
+    .right-child .parent-btn {
+        flex-direction: column;
+        gap: 10px;
+    }
 }
