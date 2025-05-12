@@ -48,9 +48,9 @@ function Main() {
           </div>
         </div>
       </div>
-      <div className="main-page">
+      {/* <div className="main-page">
         <div className="main-child">© |2023| All Right Reserved</div>
-      </div>
+      </div> */}
     </>
   )
 }
