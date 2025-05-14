@@ -20,6 +20,7 @@
     box-shadow: 2px 2px 20px -5px #00008b;
     z-index: 5;
     cursor: pointer;
+    object-fit:cover;
 }
 
 /* .left-child img:hover {
