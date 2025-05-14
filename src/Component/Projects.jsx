@@ -47,7 +47,7 @@ const Projects = () => {
                     </p>
                     <button className='postBtn'>Live</button>
                 </div>
-                <div className="projectCard projectCard6"><h1>Heading2</h1>
+                <div className="projectCard projectCard6"><h1>Project</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sapiente voluptatibus quisquam quae totam officiis repellat repellendus aspernatur eius facilis?</p>
                     <button className='postBtn'>Live</button></div>
             </div>
