@@ -10,7 +10,7 @@ function About() {
                 <div className="right-child">
                     <h1>About <span>Me</span></h1>
                     <h2>Frontend Devloper</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic vero possimus quo! Odit consectetur veritatis tenetur sit eius ab ipsam velit magnam at. Consequuntur dolor nihil laborum quasi in natus optio adipisci recusandae harum veritatis.sapiente perferendis beatae enim eaque, debitis molestiae magni dolor?</p>
+                    <p>My name is Anand Kumar Gautam, a frontend developer specializing in React.js and a proficient MERN stack developer. I build dynamic, responsive, and scalable web applications using modern technologies like React.js, Node.js, Express.js, and MongoDB. With a strong focus on performance and user experience, I craft full-stack solutions that are robust, secure, and production-ready.</p>
                     <div className="parent-btn"><button className='btn'>Read More</button></div>
                 </div>
             </div>
