@@ -35,13 +35,18 @@ const Projects = () => {
                 <div className="projectCard projectCard4">
                     <h1>Video Recorder</h1>
                     <p>Feature: Audio,Video,Screen+Video, ScreenRecord
-                       <br /> <span>Tech Stack:</span> Html, Css, Javascript, React.js, Netlify, React
+                        <br /> <span>Tech Stack:</span> Html, Css, Javascript, React.js, Netlify, React
                         Icon, Material Ui Git, Github. </p>
                     <button className='postBtn'><a href="https://recorder05.netlify.app/">Live</a></button>
                 </div>
-                <div className="projectCard projectCard5"><h1>Heading2</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sapiente voluptatibus quisquam quae totam officiis repellat repellendus aspernatur eius facilis?</p>
-                    <button className='postBtn'>Live</button></div>
+                <div className="projectCard projectCard5">
+                    <h1>ChatSphere</h1>
+                    <p>
+                        <strong>Features:</strong> Signin, Signout, Registration, Messaging, One-to-One Chat <br />
+                        <strong>Tech Stack:</strong> HTML, CSS, JavaScript, React.js, Express.js, Node.js, MongoDB, Bcrypt.js, JWT
+                    </p>
+                    <button className='postBtn'>Live</button>
+                </div>
                 <div className="projectCard projectCard6"><h1>Heading2</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sapiente voluptatibus quisquam quae totam officiis repellat repellendus aspernatur eius facilis?</p>
                     <button className='postBtn'>Live</button></div>

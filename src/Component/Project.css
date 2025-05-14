@@ -27,16 +27,19 @@
 .projectCard {
     background-size: cover;
     background-position: center;
-    min-height: 250px;
+    height: 240px; /* Fixed height */
     width: 300px;
     border-radius: 10px;
     display: flex;
-    align-items: center;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     padding: 10px;
     overflow: hidden;
     text-align: center;
     transition: transform 0.3s ease;
+    box-sizing: border-box;
+    position: relative;
 }
 
 .projectCard:hover {
@@ -88,6 +91,12 @@
     padding: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 1rem;
+    max-height: 80px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Limit to 3 lines */
+    -webkit-box-orient: vertical;
 }
 
 .projectCard .postBtn {
@@ -139,7 +148,7 @@
 
     .projectCard {
         width: 90%;
-        min-height: 220px;
+        height: 280px; /* Consistent height */
     }
 
     .project h1 {
@@ -163,7 +172,7 @@
 
     .projectCard {
         width: 100%;
-        min-height: 200px;
+        height: 260px; /* Consistent height */
     }
 
     .project h1 {

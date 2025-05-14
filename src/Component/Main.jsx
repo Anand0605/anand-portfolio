@@ -40,7 +40,7 @@ function Main() {
         </div>
       </div>
       <footer className="main-page">
-        <div className="main-child">© 2025 Anand Kumar Gautam. All rights reserved.</div>
+        <div className="main-child">© 2025 Anand Kr. Gautam All rights reserved.</div>
       </footer>
     </>
   );
